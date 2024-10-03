@@ -12,13 +12,13 @@
             {
                 if (so == 0) Console.WriteLine("Khong");
                 else if (so == 1) Console.WriteLine("Mot");
-                else if (so == 2) Console.WriteLine("Mot");
-                else if (so == 3) Console.WriteLine("Mot");
-                else if (so == 4) Console.WriteLine("Mot");
-                else if (so == 5) Console.WriteLine("Mot");
-                else if (so == 6) Console.WriteLine("Mot");
-                else if (so == 7) Console.WriteLine("Mot");
-                else if (so == 8) Console.WriteLine("Mot");
+                else if (so == 2) Console.WriteLine("Hai");
+                else if (so == 3) Console.WriteLine("Ba");
+                else if (so == 4) Console.WriteLine("Bon");
+                else if (so == 5) Console.WriteLine("Nam");
+                else if (so == 6) Console.WriteLine("Sau");
+                else if (so == 7) Console.WriteLine("Bay");
+                else if (so == 8) Console.WriteLine("Tam");
                 else Console.WriteLine("Chin");
             }
             else if (so >= 10 && so < 99)
