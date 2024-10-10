@@ -15,7 +15,7 @@
             }
             if (dem == 2)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(i + " la so nguyen to\n");
             }
             dem = 0;
         }
