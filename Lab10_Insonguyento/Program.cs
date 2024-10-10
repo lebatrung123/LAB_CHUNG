@@ -17,6 +17,10 @@
             {
                 Console.WriteLine(i + " la so nguyen to\n");
             }
+            else
+            {
+                Console.WriteLine(i + " không phai la so nguyen to\n");
+            }
             dem = 0;
         }
 
