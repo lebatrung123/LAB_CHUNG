@@ -1,0 +1,33 @@
+public class StopWatch{
+ 
+  private Datetime startTime;
+  private Datetime endTime;
+  
+public date StartTime{
+    get{return startTime}
+    
+}
+
+public date EndTime{
+    get{return endTime}
+   
+}
+
+public void Start()
+    {
+        startTime = DateTime.Now;
+    }
+
+    
+    public void Stop()
+    {
+        endTime = DateTime.Now; 
+    }
+
+    
+    public double GetElapsedTime()
+    {
+        return (endTime - startTime).TotalMilliseconds; 
+    }
+
+}
